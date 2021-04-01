@@ -1,3 +1,188 @@
+html {
+  font-size: 62.5%;
+}
 
+body {
+  font-size: 1.6rem;
+  background-color: #c7c7c9;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.39);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: rgba(92, 92, 92, 0.397) solid 0.1rem;
+}
+.navbar img {
+  width: 20rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.navbar a {
+  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #5c5c5c;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.39);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: rgba(92, 92, 92, 0.397) solid 0.1rem;
+}
+footer p {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #5c5c5c;
+}
+
+.accueil .bg {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accueil .bg img {
+  margin: 0 auto;
+  width: 100%;
+}
+.accueil .tiles {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.accueil .tiles a {
+  text-decoration: none;
+  color: white;
+  background-color: rgba(182, 182, 182, 0.479);
+  border: #dadada solid 0.2rem;
+  border-radius: 0.8rem;
+  padding: 5rem;
+  margin: 5rem;
+  font-size: 8rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 1px 1px 0 rgba(90, 90, 90, 0.774);
+  box-shadow: 2px 2px 4px rgba(90, 90, 90, 0.774);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+}
+.catalogue .imgCatalogue {
+  flex-basis: 25%;
+  margin: 2rem;
+}
+.catalogue .imgCatalogue img {
+  width: 100%;
+  border-radius: 0.3rem;
+}
+.catalogue .infoCatalogue {
+  border-radius: 0.3rem;
+  border: #5c5c5c solid 0.1rem;
+  padding: 2rem;
+  margin: 2rem;
+  color: #5c5c5c;
+}
+.catalogue .infoCatalogue .barre {
+  text-decoration: line-through;
+}
+.catalogue .infoCatalogue h5 {
+  color: #eb6262;
+}
+.catalogue .btn-suppMatelas,
+.catalogue .btn-updateMatelas {
+  background: transparent;
+  border: #5c5c5c solid 0.1rem;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+  color: #5c5c5c;
+  text-decoration: none;
+}
+
+.form-titre {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 5rem;
+  color: #5c5c5c;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5rem;
+  top: 30rem;
+  left: 20rem;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+  padding: 5rem;
+}
+form .form-image input {
+  width: 45rem;
+  height: 45rem;
+}
+form .form-image input,
+form .form-image label {
+  margin-right: 10rem;
+  display: flex;
+  justify-content: center;
+  color: #5c5c5c;
+  font-size: 1.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+form .form-image textarea {
+  border: #5c5c5c solid 0.1rem;
+  border-radius: 0.3rem;
+}
+form .form-group {
+  margin: 2rem;
+}
+form .form-group input,
+form .form-group textarea {
+  width: 100%;
+  background: transparent;
+  border: #5c5c5c solid 0.1rem;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+form .form-group label {
+  color: #5c5c5c;
+  font-size: 1.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+form .btn-addMatelas {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+form .btn-addMatelas input {
+  background: rgba(180, 180, 180, 0.514);
+  border: #5c5c5c solid 0.1rem;
+  border-radius: 0.3rem;
+  font-size: 2rem;
+  padding: 1.5rem;
+}
 
 /*# sourceMappingURL=main.css.map */
